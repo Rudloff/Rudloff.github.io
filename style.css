@@ -7,6 +7,7 @@ header {
     background-image: linear-gradient(to bottom, #FFFFFF 0%, #F8F8F8 100%);
     background-repeat: repeat-x;
     box-shadow: 0 1px 0 rgba(255, 255, 255, 0.15) inset, 0 1px 5px rgba(0, 0, 0, 0.075);
+    border-bottom: thin solid #E7E7E7;
 }
 
 h1 {
@@ -47,4 +48,32 @@ header nav ul li a {
 
 header nav ul li a:hover {
     border-bottom: 2px solid #777777;
+}
+
+.screenshot {
+    height:400px;
+    width:100%;
+    background-image:url(img/CartoStras_-_2014-07-06_18.44.15.png);
+    background-size:cover;
+    background-position:center;
+    position:relative;
+}
+
+.slogan {
+    text-align:center;
+    color:white;
+    background-color:rgba(0, 0, 0, 0.7);
+    width:100%;
+    margin:auto;
+    left:0;
+    right:0;
+    position:absolute;
+    bottom:0;
+    padding:0.2em;
+    font-size:25px;
+}
+
+.slogan img {
+    vertical-align:middle;
+    margin-right:25px;
 }
