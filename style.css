@@ -100,3 +100,55 @@ header nav ul li a:hover {
 .desc a:hover {
     color:rgb(204, 189, 190);
 }
+
+.downloads ul {
+    list-style-type:none;
+    display:table;
+    width:100%;
+    text-align:center;
+    table-layout:fixed;
+    padding-left:0;
+    margin:0;
+}
+
+.downloads li {
+    display:table-cell;
+    vertical-align:top;
+}
+
+.downloads li a {
+    width:100%;
+    height:100%;
+    min-height:220px;
+    padding-top:1em;
+    padding-bottom:1em;
+    display:block;
+    text-decoration:none;
+    color:black;
+}
+
+.downloads li:hover {
+    background-color:rgb(204, 189, 190);
+}
+
+.downloads .web {
+    background-color:white;
+}
+
+footer {
+    background-color:#808080;
+    text-align:center;
+    color:white;
+    padding-top:1em;
+    padding-bottom:1em;
+    font-size:20px;
+}
+
+footer a {
+    text-decoration:none;
+    color: #CCC;
+}
+
+footer a:hover {
+    color:black;
+}
