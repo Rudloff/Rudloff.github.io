@@ -18,6 +18,7 @@ h1 {
     color:#777;
     font-weight:normal;
     display:inline-block;
+    vertical-align:top;
 }
 
 h1 img {
@@ -155,4 +156,23 @@ footer a {
 
 footer a:hover {
     color:black;
+}
+
+@media (max-width: 480px) {
+    .downloads li {
+        display:block;
+    }
+    
+    header nav ul li {
+        display:block;
+    }
+    header nav {
+        float:right;
+        text-align:right;
+    }
+    
+    header nav ul li a:hover {
+        border:none;
+        color:black;
+    }
 }
