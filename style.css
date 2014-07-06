@@ -69,11 +69,34 @@ header nav ul li a:hover {
     right:0;
     position:absolute;
     bottom:0;
-    padding:0.2em;
+    padding-top:0.2em;
+    padding-bottom:0.2em;
     font-size:25px;
 }
 
 .slogan img {
     vertical-align:middle;
     margin-right:25px;
+}
+
+.desc_wrapper {
+    text-align:center;
+    font-size:20px;
+    background-color:#EEE;
+}
+
+.desc {
+    width:50%;
+    margin:auto;
+    padding-top:3em;
+    padding-bottom:3em;
+}
+
+.desc a {
+    text-decoration:none;
+    color: #777;
+}
+
+.desc a:hover {
+    color:rgb(204, 189, 190);
 }
