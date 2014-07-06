@@ -158,7 +158,7 @@ footer a:hover {
     color:black;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 640px) {
     .downloads li {
         display:block;
     }
@@ -170,9 +170,21 @@ footer a:hover {
         float:right;
         text-align:right;
     }
-    
+    header nav ul {
+        padding-left:0;
+    }
     header nav ul li a:hover {
         border:none;
         color:black;
+    }
+    .desc {
+        width:90%;
+    }
+    .slogan {
+        display:table;
+    }
+    .slogan span {
+        display:table-cell;
+        vertical-align: middle;
     }
 }
