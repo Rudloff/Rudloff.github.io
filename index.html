@@ -16,27 +16,27 @@
     <meta property="og:image" content="http://carto.rudloff.pro/img/logo_full.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
-<body>
+<body itemscope itemtype="http://schema.org/WebApplication">
     <header>
         <div class="header_wrapper">
-            <h1><img src="img/logo_32.png" alt="" />CartoStras</h1>
+            <h1 itemprop="name"><img src="img/logo_32.png" alt="" />CartoStras</h1>
             <nav>
                 <ul>
-                    <li><a href="https://carto.rudloff.pro/">Version Web</a></li>
-                    <li><a href="https://play.google.com/store/apps/details?id=pro.rudloff.carto">Application Android</a></li>
-                    <li><a href="https://marketplace.firefox.com/app/cartostras/">Application Firefox OS</a></li>
+                    <li><a itemprop="url" href="https://carto.rudloff.pro/">Version Web</a></li>
+                    <li><a itemprop="installUrl" href="https://play.google.com/store/apps/details?id=pro.rudloff.carto">Application Android</a></li>
+                    <li><a itemprop="installUrl" href="https://marketplace.firefox.com/app/cartostras/">Application Firefox OS</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <div class="screenshot">
         <p class="slogan">
-            <span><img src="img/logo_128.png" alt="CartoStras"></span>
-            <span>Carte open data de Strasbourg</span>
+            <span><img itemprop="image" src="img/logo_128.png" alt="CartoStras"></span>
+            <span itemprop="about">Carte open data de Strasbourg</span>
         </p>
     </div>
     <div class="desc_wrapper">
-        <p class="desc">
+        <p itemprop="description" class="desc">
             <strong>CartoStras</strong> est une carte interactive de Strasbourg qui fournit des informations sur les lieux touristiques, les monuments et l'architecture de la ville.<br/><br/>
             Elle se base sur les données de la <a target="_blank" href="http://www.strasbourg.eu/ma-situation/professionnel/open-data/donnees">Communauté urbaine de Strasbourg</a>, de <a target="_blank" href="https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal">Wikipédia</a> de l'<a target="_blank" href="http://mob.u-strasbg.fr/data/">Université de Strasbourg</a> et d'<a target="_blank" href="http://archi-strasbourg.org/">Archi-Strasbourg</a>.
         </p>
@@ -44,23 +44,23 @@
     <div class="downloads">
         <ul>
             <li>
-                <a href="https://carto.rudloff.pro/">
+                <a itemprop="url" href="https://carto.rudloff.pro/">
                     <h2>Version Web</h2>
-                    <img alt="CartoStras" src="img/logo_60.png" />
+                    <img alt="CartoStras" src="img/logo_60.png" /><span class="hidden">&nbsp;:</span>
                     <p>Strasbourg dans votre navigateur</p>
                 </a>
             </li>
             <li>
-                <a href="https://play.google.com/store/apps/details?id=pro.rudloff.carto">
+                <a itemprop="installUrl" href="https://play.google.com/store/apps/details?id=pro.rudloff.carto">
                     <h2>Application Android</h2>
-                    <img alt="Disponible sur le Google Play" src="https://developer.android.com/images/brand/fr_generic_rgb_wo_60.png" />
+                    <img alt="Disponible sur le Google Play" src="https://developer.android.com/images/brand/fr_generic_rgb_wo_60.png" /><span class="hidden">&nbsp;:</span>
                     <p>Strasbourg dans votre poche</p>
                 </a>
             </li>
             <li>
-                <a href="https://marketplace.firefox.com/app/cartostras/">
+                <a itemprop="installUrl"  href="https://marketplace.firefox.com/app/cartostras/">
                     <h2>Application Firefox OS</h2>
-                    <img alt="Disponible sur le Markeplace Firefox" src="https://marketplace.cdn.mozilla.net/media/img/mkt/badges/firefox-marketplace_badge-orange_172_60.png?b=9d86a5d-53b323fb" />
+                    <img alt="Disponible sur le Markeplace Firefox" src="https://marketplace.cdn.mozilla.net/media/img/mkt/badges/firefox-marketplace_badge-orange_172_60.png?b=9d86a5d-53b323fb" /><span class="hidden">&nbsp;:</span>
                     <p>Strasbourg dans votre renard</p>
                 </a>
             </li>
@@ -69,6 +69,6 @@
     <footer>
         <p><strong>CartoStras</strong> est une application <i>open source</i> basée sur le projet <a href="http://je-suis-ici.com/">Je suis ici</a>.<br/>
         Le code source est disponible <a href="https://github.com/Rudloff/je-suis-ici-cartoviz" title="CartoStras sur Github">sur Github</a>.</p>
-        &copy; <a rel="author" target="_blank" href="https://rudloff.pro/">Pierre Rudloff</a> & <a rel="author" target="_blank" href="http://olivierhaquette.fr/">Olivier Haquette</a>
+        &copy; <a rel="author" itemprop="creator" target="_blank" href="https://rudloff.pro/">Pierre Rudloff</a> & <a rel="author" itemprop="contributor" target="_blank" href="http://olivierhaquette.fr/">Olivier Haquette</a>
     </footer>
 </body>

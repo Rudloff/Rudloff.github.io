@@ -158,6 +158,10 @@ footer a:hover {
     color:black;
 }
 
+.hidden {
+    display:none;
+}
+
 @media (max-width: 640px) {
     .downloads li {
         display:block;
