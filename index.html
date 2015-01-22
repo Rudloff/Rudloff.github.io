@@ -1,4 +1,5 @@
 <!DOCTYPE HTML>
+<html itemscope itemtype="http://schema.org/WebApplication">
 <head>
     <meta charset="UTF-8" />
     <title>CartoStras</title>
@@ -15,8 +16,9 @@
     <meta property="og:title" content="CartoStras" />
     <meta property="og:image" content="http://carto.rudloff.pro/img/logo_full.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link itemprop="applicationCategory" href="https://play.google.com/store/apps/category/TRAVEL_AND_LOCAL" />
 </head>
-<body itemscope itemtype="http://schema.org/WebApplication">
+<body>
     <header>
         <div class="header_wrapper">
             <h1 itemprop="name"><img src="img/logo_32.png" alt="" />CartoStras</h1>
@@ -52,14 +54,14 @@
             </li>
             <li>
                 <a itemprop="installUrl" href="https://play.google.com/store/apps/details?id=pro.rudloff.carto">
-                    <h2>Application Android</h2>
+                    <h2>Application <span itemprop="operatingSystem">Android</span></h2>
                     <img alt="Disponible sur le Google Play" src="https://developer.android.com/images/brand/fr_generic_rgb_wo_60.png" /><span class="hidden">&nbsp;:</span>
                     <p>Strasbourg dans votre poche</p>
                 </a>
             </li>
             <li>
                 <a itemprop="installUrl"  href="https://marketplace.firefox.com/app/cartostras/">
-                    <h2>Application Firefox OS</h2>
+                    <h2>Application <span itemprop="operatingSystem">Firefox OS</span></h2>
                     <img alt="Disponible sur le Marketplace Firefox" src="https://marketplace.cdn.mozilla.net/media/img/mkt/badges/firefox-marketplace_badge-orange_172_60.png?b=9d86a5d-53b323fb" /><span class="hidden">&nbsp;:</span>
                     <p>Strasbourg dans votre renard</p>
                 </a>
@@ -72,3 +74,4 @@
         &copy; <a rel="author" itemprop="creator" target="_blank" href="https://rudloff.pro/">Pierre Rudloff</a> & <a rel="author" itemprop="contributor" target="_blank" href="http://olivierhaquette.fr/">Olivier Haquette</a>
     </footer>
 </body>
+</html>
