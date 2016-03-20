@@ -1,3 +1,3 @@
 cartostras-about
 =================
-Presentation page for [CartoStras](http://cartostras.eu/)
+Presentation page for [CartoStras](https://carto.rudloff.pro/)
